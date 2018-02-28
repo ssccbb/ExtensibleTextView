@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sung.extensibletextview.MainActivity">
+
+    <com.sung.extensibletextview.ExtensibleTextView
+        android:id="@+id/tv_content"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:animDuration="200"
+        app:collapseExpandTextColor="@android:color/holo_blue_dark"
+        app:collapseExpandTextSize="16sp"
+        app:contentTextColor="@color/colorBlack"
+        app:contentTextSize="16sp"
+        app:maxCollapsedLines="5"
+        app:textCollapse="@string/collapse"
+        app:textExpand="@string/expand"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/expandable_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        tools:text="文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例文字内容示例"
+        android:lineSpacingExtra="1dp"
+        android:ellipsize="end"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/expand_collapse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@android:color/transparent"
+        tools:text="@string/collapse"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="5dp" />
+</LinearLayout>
